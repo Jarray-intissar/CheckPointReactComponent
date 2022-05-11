@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  img{
+      margin: 100px;
+      padding: 100px;
+      width: 30%;
+      height: 30%;
+      align-items: center;
+      -webkit-transform: rotate(10deg) scale(1.25);
+      transform: rotate(10deg) scale(1.25);
+      -webkit-transition: .5s ease-in-out;
+      transition: .5s ease-in-out;
+    }
+    img:hover {
+      -webkit-transform: rotate(0) scale(1);
+      transform: rotate(0) scale(1);
+    }
+  
+  .titre{
+  
+    background-color: rgb(228, 166, 166);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1{
+    color: #b8a7a7;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;    
+  }
+  h1 span{
+    transition: .5s linear
+  }
+  h1:hover span:nth-child(1){
+    margin-right: 2px
+  }
+  h1:hover span:nth-child(1):after{
+    content: "(nassoura)";
+  }
+  h1:hover span:nth-child(2){
+    margin-left: 2px
+  }
+  h1:hover span{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+  }
+  .myform{
+       width: 80%;
+       height: 80%;
+       margin: 50px;
+       padding: 10px;
+  }
+  h3{
+ font-weight: 900;
+ font-family: 'Times New Roman', Times, serif;
+ color: rgb(188, 65, 192);
+  }
+.TESS {
+   height: 30vh;
+    margin: 20px auto;
+    padding: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
