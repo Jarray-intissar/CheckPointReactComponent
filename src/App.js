@@ -1,13 +1,13 @@
 
-import './Profile/Profile.css';
-import ProfilePhoto from './Profile/ProfilePhoto';
-import FullName from './Profile/FullName';
-import Adresse from './Profile/Adresse';
+import './Component/Profile/Profile.css';
+import ProfilePhoto from './Component/Profile/ProfilePhoto';
+import FullName from './Component/Profile/FullName';
+import Adresse from './Component/Profile/Adresse';
 
 function App() {
   return (
 
-  <div className="Container">
+  <div>
           <ProfilePhoto />
           <FullName />
           <Adresse />
